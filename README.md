@@ -5,18 +5,18 @@ A MongoDB-based project demonstrating database operations, functional testing, a
 ---
 
 ## Project Structure
-.
-├── functionaltest/              # CRUD and query test scripts
-│   ├── crud_codebrew.js
-│   └── qry_codebrew.js
-├── loadtest/                    # Artillery load testing scripts
-│   ├── load-test.yml
-│   ├── load-test-complex-get.yml
-│   └── load-test-multi-collection.yml
-├── init_codebrew.js             # DB initialization script
-├── server.js                    # Express server entry point
-├── package.json
-└── .env                         # Environment configuration
+-.
+-├── functionaltest/              # CRUD and query test scripts
+-│   ├── crud_codebrew.js
+-│   └── qry_codebrew.js
+-├── loadtest/                    # Artillery load testing scripts
+-│   ├── load-test.yml
+-│   ├── load-test-complex-get.yml
+-│   └── load-test-multi-collection.yml
+-├── init_codebrew.js             # DB initialization script
+-├── server.js                    # Express server entry point
+-├── package.json
+-└── .env                         # Environment configuration
 
 ---
 
@@ -33,7 +33,7 @@ cd dbd381_codebrewnew
 npm install
 ```
 
-### Available Scripts
+# Available Scripts
 
 ## Database Initialization
 
@@ -165,27 +165,27 @@ scenarios:
           url: "/products"
 ```
 
-###  How to Run
+##  How to Run
 
-## Normal test
+### Normal test
 ```bash
 npm run loadtest1
 
 ```
 
-## Complex Get test
+### Complex Get test
 ```bash
 npm run loadtest2
 
 ```
 
-## Multi-Collection test
+### Multi-Collection test
 ```bash
 npm run loadtest3
 
 ```
 
-### 🛠️ Express.js Server Setup
+## 🛠️ Express.js Server Setup
 
 Our backend uses **Node.js** with **Express.js** to handle RESTful requests. Routes were created for each core entity:
 
