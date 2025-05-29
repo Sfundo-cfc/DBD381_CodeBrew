@@ -5,18 +5,15 @@ A MongoDB-based project demonstrating database operations, functional testing, a
 ---
 
 ## Project Structure
--.
--├── functionaltest/              # CRUD and query test scripts
--│   ├── crud_codebrew.js
--│   └── qry_codebrew.js
--├── loadtest/                    # Artillery load testing scripts
--│   ├── load-test.yml
--│   ├── load-test-complex-get.yml
--│   └── load-test-multi-collection.yml
--├── init_codebrew.js             # DB initialization script
--├── server.js                    # Express server entry point
--├── package.json
--└── .env                         # Environment configuration
+- `functionaltest/crud_codebrew.js` – Functional test script for CRUD operations  
+- `functionaltest/qry_codebrew.js` – Functional test script for query operations  
+- `loadtest/load-test.yml` – Basic load test configuration for Artillery  
+- `loadtest/load-test-complex-get.yml` – Load test with complex GET requests  
+- `loadtest/load-test-multi-collection.yml` – Load test spanning multiple collections  
+- `init_codebrew.js` – Script to initialize and seed the MongoDB database  
+- `server.js` – Express.js server entry point  
+- `package.json` – Node.js project metadata and dependencies  
+- `.env` – Environment variables (e.g., MongoDB URI)
 
 ---
 
