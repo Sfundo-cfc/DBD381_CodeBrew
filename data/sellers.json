@@ -1,0 +1,5 @@
+[
+  { "_id": "seller001", "name": "WorkNest Supplies", "email": "support@worknest.io" },
+  { "_id": "seller002", "name": "DevTools Central", "email": "sales@devtools.io" },
+  { "_id": "seller003", "name": "EcoOffice", "email": "hello@ecooffice.dev" }
+]

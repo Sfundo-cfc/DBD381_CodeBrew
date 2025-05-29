@@ -1,7 +1,0 @@
-exit
-})
-  ]
-    { _id: 0, host: "shard1:27018" }
-  members: [
-  _id: "shard1ReplSet",
-rs.initiate({

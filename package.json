@@ -1,0 +1,29 @@
+{
+  "name": "dbd381_codebrewnew",
+  "version": "1.0.0",
+  "description": "",
+  "main": "crud_codebrew.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "init": "node init_codebrew.js",
+    "crud": "node functionaltest/crud_codebrew.js",
+    "qry": "node functionaltest/qry_codebrew.js",
+    "loadtest1": "npx artillery run loadtest/load-test.yml",
+    "loadtest2": "npx artillery run loadtest/load-test-complex-get.yml",
+    "loadtest3": "npx artillery run loadtest/load-test-multi-collection.yml",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "artillery": "^2.0.23",
+    "express": "^5.1.0",
+    "mongodb": "^6.16.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.5.0",
+    "nodemon": "^3.1.10"
+  }
+}

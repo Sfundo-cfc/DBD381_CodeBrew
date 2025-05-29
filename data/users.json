@@ -1,0 +1,7 @@
+[
+  { "_id": 1001, "name": "Alice Dev", "email": "alice@devmail.com", "wishlist": ["prod001", "prod004"] },
+  { "_id": 1002, "name": "Ben Coder", "email": "ben@devmail.com", "wishlist": ["prod005"] },
+  { "_id": 1003, "name": "Chloe Script", "email": "chloe@devmail.com", "wishlist": ["prod002", "prod006", "prod010"] },
+  { "_id": 1004, "name": "Dylan Stack", "email": "dylan@devmail.com", "wishlist": [] },
+  { "_id": 1005, "name": "Eve Compile", "email": "eve@devmail.com", "wishlist": ["prod007", "prod009"] }
+]

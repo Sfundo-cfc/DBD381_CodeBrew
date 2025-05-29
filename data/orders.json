@@ -1,0 +1,60 @@
+[
+  {
+    "_id": "order001",
+    "user_id": 1001,
+    "items": [
+      { "product_id": "prod001", "qty": 1 },
+      { "product_id": "prod010", "qty": 2 }
+    ],
+    "order_time": "2024-05-15T10:15:00Z",
+    "total": 329.97,
+    "status": "paid",
+    "payment_method": "credit"
+  },
+  {
+    "_id": "order002",
+    "user_id": 1002,
+    "items": [
+      { "product_id": "prod005", "qty": 1 }
+    ],
+    "order_time": "2024-05-20T08:00:00Z",
+    "total": 129.99,
+    "status": "shipped",
+    "payment_method": "paypal"
+  },
+  {
+    "_id": "order003",
+    "user_id": 1003,
+    "items": [
+      { "product_id": "prod002", "qty": 1 },
+      { "product_id": "prod006", "qty": 1 }
+    ],
+    "order_time": "2024-05-23T14:30:00Z",
+    "total": 539.98,
+    "status": "pending",
+    "payment_method": "debit"
+  },
+  {
+    "_id": "order004",
+    "user_id": 1004,
+    "items": [
+      { "product_id": "prod004", "qty": 1 },
+      { "product_id": "prod008", "qty": 1 }
+    ],
+    "order_time": "2024-05-25T11:45:00Z",
+    "total": 119.98,
+    "status": "paid",
+    "payment_method": "credit"
+  },
+  {
+    "_id": "order005",
+    "user_id": 1005,
+    "items": [
+      { "product_id": "prod007", "qty": 2 }
+    ],
+    "order_time": "2024-05-26T09:10:00Z",
+    "total": 39.98,
+    "status": "delivered",
+    "payment_method": "crypto"
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "_id": "prod001",
+    "name": "Code Hoodie - Dark Theme",
+    "category": "Apparel",
+    "price": 39.99,
+    "seller_id": "seller001",
+    "stock": 50
+  },
+  {
+    "_id": "prod002",
+    "name": "Standing Desk",
+    "category": "Furniture",
+    "price": 499.99,
+    "seller_id": "seller001",
+    "stock": 10
+  },
+  {
+    "_id": "prod003",
+    "name": "Wireless Mouse",
+    "category": "Electronics",
+    "price": 24.99,
+    "seller_id": "seller002",
+    "stock": 100
+  },
+  {
+    "_id": "prod004",
+    "name": "Mechanical Keyboard - Silent Red",
+    "category": "Electronics",
+    "price": 89.99,
+    "seller_id": "seller002",
+    "stock": 60
+  },
+  {
+    "_id": "prod005",
+    "name": "Noise-Cancelling Headphones",
+    "category": "Audio",
+    "price": 129.99,
+    "seller_id": "seller003",
+    "stock": 40
+  },
+  {
+    "_id": "prod006",
+    "name": "Smart LED Lamp",
+    "category": "Home",
+    "price": 39.99,
+    "seller_id": "seller003",
+    "stock": 75
+  },
+  {
+    "_id": "prod007",
+    "name": "Desk Organizer Set",
+    "category": "Office",
+    "price": 19.99,
+    "seller_id": "seller001",
+    "stock": 50
+  },
+  {
+    "_id": "prod008",
+    "name": "Laptop Stand",
+    "category": "Accessories",
+    "price": 29.99,
+    "seller_id": "seller002",
+    "stock": 80
+  },
+  {
+    "_id": "prod009",
+    "name": "Cold Brew Concentrate",
+    "category": "Beverages",
+    "price": 12.99,
+    "seller_id": "seller003",
+    "stock": 0
+  },
+  {
+    "_id": "prod010",
+    "name": "Blue Light Glasses",
+    "category": "Health",
+    "price": 14.99,
+    "seller_id": "seller001",
+    "stock": 200
+  }
+]
